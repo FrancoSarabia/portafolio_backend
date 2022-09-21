@@ -63,8 +63,6 @@ router.post('/api/send-email', async (req, res) => {
         );
     });
 
-    console.log("INFO: ", info)
-
 
     /*const { to, subject, text, html } = req.body;
 
